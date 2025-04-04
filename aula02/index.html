@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Penthouse - Hotel President Wilson</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --dark: #333;
+            --light: #f9f9f9;
+            --accent: #8B4513;
+        }
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: #555;
+            line-height: 1.6;
+            margin: 0;
+            background-color: var(--light);
+        }
+        
+        h1, h2 {
+            font-family: 'Playfair Display', serif;
+            color: var(--dark);
+        }
+        
+        .header {
+            background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), 
+                        url('https://www.lux-mag.com/wp-content/uploads/2019/12/geneva-2019-suite-penthouse-terrace-aperitifs-03.jpg') center/cover;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            padding: 0 20px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+        
+        h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            border-bottom: 2px solid var(--accent);
+            padding-bottom: 5px;
+            display: inline-block;
+        }
+
+        header h1 {
+            color: var(--light);
+        }
+        
+        .highlight {
+            color: var(--accent);
+            font-weight: 500;
+        }
+        
+        .features {
+            margin: 30px 0;
+        }
+        
+        .feature {
+            margin-bottom: 20px;
+            background: white;
+            padding: 20px;
+            border-radius: 4px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        
+        .price {
+            font-size: 1.5rem;
+            text-align: center;
+            margin: 40px 0;
+            color: var(--accent);
+        }
+        
+        .media-container {
+            margin: 30px 0;
+        }
+        
+        iframe {
+            width: 100%;
+            border: none;
+            border-radius: 4px;
+        }
+
+        .map iframe {
+            height: 100%;
+        }
+        
+        .map {
+            height: 400px;
+            margin: 30px 0;
+        }
+        
+        footer {
+            background: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div>
+            <h1>Royal Penthouse</h1>
+            <p class="subtitle">Hotel President Wilson • Genebra</p>
+        </div>
+    </header>
+    
+    <main class="container">
+        <section>
+            <h2>O Epítome do Luxo</h2>
+            <p>O <span class="highlight">Royal Penthouse</span> no Hotel President Wilson redefiniu os padrões de excelência em hospedagem. Com seus <strong>1.800 m²</strong> meticulosamente projetados, esta propriedade oferece uma experiência incomparável.</p>
+            
+            <div class="price">
+                Diárias a partir de <span class="highlight">US$ 80.000</span>
+            </div>
+            
+            <div class="features">
+                <div class="feature">
+                    <h3>Acomodações</h3>
+                    <p>12 quartos e suítes, incluindo uma suíte presidencial com vista panorâmica para o Lago Genebra e os Alpes.</p>
+                </div>
+                
+                <div class="feature">
+                    <h3>Experiência Gastronômica</h3>
+                    <p>Sala de jantar privativa para 26 convidados, com serviço de chef pessoal e adega climatizada.</p>
+                </div>
+                
+                <div class="feature">
+                    <h3>Lazer e Entretenimento</h3>
+                    <p>Cinema privativo, biblioteca com obras raras, jacuzzi e sauna com vista para os Alpes.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Localização</h2>
+            <p>O Hotel President Wilson está situado à beira do Lago Genebra, no coração da cidade.</p>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2760.816991318197!2d6.149034776771114!3d46.214095483092585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c6522546dbc3d%3A0x27e7eb14ab653442!2sHotel%20President%20Wilson%2C%20a%20Luxury%20Collection%20Hotel%2C%20Geneva!5e0!3m2!1spt-BR!2sbr!4v1743120884124!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+        
+        <section class="media-container">
+            <h2>Tour Virtual</h2>
+            <iframe width="1321" height="743" src="https://www.youtube.com/embed/bFe8JnjZvkc" title="The Most Expensive Hotel Suite In The World" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Royal Penthouse • Hotel President Wilson</p>
+        <p>© 2023 Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
